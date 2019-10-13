@@ -38,6 +38,10 @@ EOF
 
 systemctl start nginx > /dev/null 2>&1
 systemctl enable nginx > /dev/null 2>&1
+
+firewall-cmd --permanent --add-service=http
+firewall-cmd --permanent --add-service=https
+firewall-cmd --reload
 cls 
 echo "Done!"
 
