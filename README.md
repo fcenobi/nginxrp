@@ -1,7 +1,7 @@
 # NGINX Reverse Proxy Configurator
 Script to configure servers on nginx reverse proxy with certbot on CentOS 7
 
-Requirements:
+Requirements: (nginx_init.sh does this)
 - installed:
   - nginx 
   - certbot
@@ -9,4 +9,4 @@ Requirements:
 - a domain name pointing to public IP (I'm using Dynamic DNS from dynu.com)
 - ports 80 and 443 forwarded to Reverse Proxy Server
 - ports 80 and 443 allowed on firewall 
-(nginx_init.sh does this)
+
