@@ -2,7 +2,7 @@
 #!/bin/bash
 
 ###########################################################
-#  Configure CentOS 7 with NGINX                    #
+#  Configure CentOS 7 with NGINX                   #
 #  Robert Watkins                              		  #
 #  Updated: 10/13/2019                         		  #
 #  Changelog:                                  		  #
