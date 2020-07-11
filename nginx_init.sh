@@ -29,7 +29,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 echo "Working..."
-yum install -y nginx certbot python2-certbot-nginx > /dev/null 2>&1
+apt-get  install -y nginx certbot python3-certbot-nginx > /dev/null 2>&1
 
 cat << EOF > /etc/nginx/conf.d/include_sites.conf
 include /etc/nginx/sites-enabled/*.conf;
