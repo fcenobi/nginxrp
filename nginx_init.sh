@@ -31,6 +31,10 @@ fi
 echo "Working..."
 apt-get  install -y nginx certbot python3-certbot-nginx > /dev/null 2>&1
 
+mkdir /etc/nginx/sites-enabled  > /dev/null 2>&1
+mkdir /etc/nginx/sites-available  > /dev/null 2>&1
+
+
 cat << EOF > /etc/nginx/conf.d/include_sites.conf
 include /etc/nginx/sites-enabled/*.conf;
 
