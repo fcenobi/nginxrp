@@ -35,7 +35,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # vars
-domain="watkins.network"
+domain="fcenobi.comm"
 reachable=false
 
 
